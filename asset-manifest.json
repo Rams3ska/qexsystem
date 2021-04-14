@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/qexsystem/static/css/main.046057dc.chunk.css",
+    "main.js": "/qexsystem/static/js/main.a1c3c0f7.chunk.js",
+    "main.js.map": "/qexsystem/static/js/main.a1c3c0f7.chunk.js.map",
+    "runtime-main.js": "/qexsystem/static/js/runtime-main.a23b85a9.js",
+    "runtime-main.js.map": "/qexsystem/static/js/runtime-main.a23b85a9.js.map",
+    "static/js/2.059610d3.chunk.js": "/qexsystem/static/js/2.059610d3.chunk.js",
+    "static/js/2.059610d3.chunk.js.map": "/qexsystem/static/js/2.059610d3.chunk.js.map",
+    "index.html": "/qexsystem/index.html",
+    "static/css/main.046057dc.chunk.css.map": "/qexsystem/static/css/main.046057dc.chunk.css.map",
+    "static/js/2.059610d3.chunk.js.LICENSE.txt": "/qexsystem/static/js/2.059610d3.chunk.js.LICENSE.txt",
+    "static/media/user.839db01c.svg": "/qexsystem/static/media/user.839db01c.svg",
+    "static/media/view.d7f731bb.svg": "/qexsystem/static/media/view.d7f731bb.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a23b85a9.js",
+    "static/js/2.059610d3.chunk.js",
+    "static/css/main.046057dc.chunk.css",
+    "static/js/main.a1c3c0f7.chunk.js"
+  ]
+}
