@@ -1,0 +1,48 @@
+.profile-header__identy {
+	width: 100%;
+	height: 80px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.profile-icon {
+	height: 80px;
+	width: 80px;
+
+	box-sizing: border-box;
+
+	border-radius: 100px;
+	border: 2px solid rgb(118, 224, 118);
+
+	background-color: rgb(234, 234, 234);
+}
+
+.profile-title {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	margin-left: 20px;
+
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.profile-title__name {
+	font-size: 1.4rem;
+	font-weight: 500;
+
+	margin-bottom: 5px;
+}
+
+.profile-title__specialization {
+	font-size: 0.9rem;
+	font-weight: 300;
+}
+
+@media (max-width: 425px) {
+	.profile-header__identy {
+		margin-bottom: 20px;
+	}
+}

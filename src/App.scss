@@ -1,0 +1,90 @@
+.page-layout {
+	height: 100%;
+	max-width: 1400px;
+	min-width: 320px;
+
+	margin: 0 auto;
+}
+
+.page-body {
+	height: 100%;
+
+	width: 100%;
+
+	display: flex;
+}
+
+.user-info {
+	width: 100%;
+
+	height: 100%;
+}
+
+.island {
+	width: 100%;
+	height: auto;
+
+	margin: 30px 0px;
+
+	box-sizing: border-box;
+
+	border-radius: 6px;
+
+	background-color: whitesmoke;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+}
+
+.profile-header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+
+	padding: 10px 20px;
+}
+
+.island__title {
+	width: 100%;
+
+	font-family: Montserrat;
+	font-weight: 500;
+	font-size: 1.5rem;
+
+	padding: 10px 20px;
+
+	box-sizing: border-box;
+
+	border-bottom: 1px solid #e5e5e5;
+
+	color: rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 1920px) {
+	.page-layout {
+		max-width: 1400px;
+	}
+}
+@media (max-width: 1600px) {
+	.page-layout {
+		max-width: 1000px;
+	}
+}
+@media (max-width: 1024px) {
+	.page-layout {
+		max-width: 768px;
+	}
+}
+@media (max-width: 768px) {
+	.page-layout {
+		margin: 15px;
+	}
+}
+@media (max-width: 425px) {
+	.page-layout {
+		margin: 10px;
+	}
+
+	.profile-header {
+		flex-direction: column;
+	}
+}
